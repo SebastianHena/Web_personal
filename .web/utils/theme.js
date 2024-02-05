@@ -1,0 +1,1 @@
+export default {"styles": {"global": {"body": {"fontFamily": "Abel", "backgroundColor": "#1a1a1a"}}}}
