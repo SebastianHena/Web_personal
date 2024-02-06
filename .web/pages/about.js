@@ -36,10 +36,10 @@ export default function Component() {
 </Box>
   <NextHead>
   <title>
-  {`Web personal SebasDev`}
+  {`SebasDev | Web personal`}
 </title>
-  <meta content={`A Reflex app.`} name={`description`}/>
-  <meta content={`favicon.ico`} property={`og:image`}/>
+  <meta content={`¡Bienvenidos a mi Web!`} name={`description`}/>
+  <meta content={`code-solid.svg`} property={`og:image`}/>
 </NextHead>
 </Fragment>
   )

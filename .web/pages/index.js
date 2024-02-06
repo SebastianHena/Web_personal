@@ -27,10 +27,10 @@ export default function Component() {
   <Center>
   <VStack sx={{"maxWidth": "560px", "width": "100%", "marginY": "1em"}}>
   <VStack alignItems={`start`}>
-  <HStack>
+  <HStack sx={{"padding": "0.5em"}}>
   <Avatar name={`Sebastian Henao`} size={`xl`} src={`imagen2.ico`}/>
   <VStack alignItems={`start`} sx={{"color": "#ffffff"}}>
-  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff"}}>
+  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff", "padding": "0.5em"}}>
   {`Sebastian Henao`}
 </Heading>
   <Text sx={{"marginTop": "0px !important"}}>
@@ -38,23 +38,23 @@ export default function Component() {
 </Text>
 </VStack>
 </HStack>
-  <Heading sx={{"width": "100%", "fontFamily": "Inconsolata", "paddingTop": "1em", "color": "#ffffff"}}>
+  <Heading sx={{"width": "100%", "fontFamily": "Inconsolata", "paddingTop": "1em", "padding": "0.5em", "color": "#ffffff"}}>
   {`Bienvenido a mi Mundo Digital`}
 </Heading>
-  <Text sx={{"color": "#D6D6D6"}}>
+  <Text sx={{"color": "#D6D6D6", "padding": "0.5em"}}>
   {`¡Hola, soy Sebastian Henao, un apasionado desarrollador con un enfoque especializado en Python!
                 Este rincón virtual es mi espacio para compartir mi viaje de aprendizaje y exploración en el vasto universo de la programación.`}
 </Text>
-  <Heading size={`md`} sx={{"width": "100%", "fontFamily": "Inconsolata", "paddingTop": "1em", "color": "#ffffff"}}>
+  <Heading size={`md`} sx={{"width": "100%", "fontFamily": "Inconsolata", "paddingTop": "1em", "padding": "0.5em", "color": "#ffffff"}}>
   {`Sobre Mí:`}
 </Heading>
-  <Text sx={{"color": "#D6D6D6"}}>
+  <Text sx={{"color": "#D6D6D6", "padding": "0.5em"}}>
   {`Soy un eterno aprendiz, siempre hambriento de conocimiento y desafiando los límites de lo posible con Python. 
                  Mi misión es convertirme en uno de los mejores desarrolladores, y cada línea de código es un paso hacia ese objetivo.`}
 </Text>
 </VStack>
   <VStack sx={{"width": "100%"}}>
-  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff"}}>
+  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff", "padding": "0.5em"}}>
   {`Personal`}
 </Heading>
   <Link as={NextLink} href={`/about`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
@@ -87,7 +87,7 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff"}}>
+  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff", "padding": "0.5em"}}>
   {`¡Redes sociales y más!`}
 </Heading>
   <Link as={NextLink} href={`https://web.facebook.com/juansebastian1013`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
@@ -150,7 +150,7 @@ export default function Component() {
 </HStack>
 </Button>
 </Link>
-  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff"}}>
+  <Heading size={`lg`} sx={{"width": "100%", "fontFamily": "Inconsolata", "color": "#ffffff", "padding": "0.5em"}}>
   {`Contacto`}
 </Heading>
   <Link as={NextLink} href={`mailto:sebastianhenaovanegas2@gmail.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
@@ -171,7 +171,7 @@ export default function Component() {
 </VStack>
 </VStack>
 </Center>
-  <VStack sx={{"marginBottom": "3em"}}>
+  <VStack>
   <ChakraImage src={`/logo.png`} sx={{"width": "5em", "height": "auto", "borderRadius": "0.8em", "marginTop": "0.8em", "marginBottom": "0.8em"}}/>
   <Text sx={{"color": "#D6D6D6"}}>
   {`SebasDev | 2024`}
@@ -180,10 +180,10 @@ export default function Component() {
 </Box>
   <NextHead>
   <title>
-  {`Web personal SebasDev`}
+  {`SebasDev | Web personal`}
 </title>
-  <meta content={`A Reflex app.`} name={`description`}/>
-  <meta content={`favicon.ico`} property={`og:image`}/>
+  <meta content={`¡Bienvenidos a mi Web!`} name={`description`}/>
+  <meta content={`code-solid.svg`} property={`og:image`}/>
 </NextHead>
 </Fragment>
   )

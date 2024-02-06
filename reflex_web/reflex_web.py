@@ -53,10 +53,14 @@ app = rx.App(
 app.add_page(
     index,
     route="/",
-    title="Web personal SebasDev",
+    title="SebasDev | Web personal",
+    description="¡Bienvenidos a mi Web!",
+    image="code-solid.svg"
     )
 app.add_page(
     about,
     route="/about",
-    title="Web personal SebasDev"
+    title="SebasDev | Web personal",
+    description="¡Bienvenidos a mi Web!",
+    image="code-solid.svg"
     )

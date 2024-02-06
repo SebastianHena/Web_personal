@@ -18,5 +18,4 @@ def footer() -> rx.Component:
         rx.text(f"SebasDev | {datetime.now().year}", 
                 color = color_text.TEXT_SECUNDARY.value),
         
-        margin_bottom = styles.Size.MAX_BIG.value
     )

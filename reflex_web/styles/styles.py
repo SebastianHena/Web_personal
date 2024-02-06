@@ -22,7 +22,6 @@ class Size(Enum):
 BASE_STYLE = {
     "font_family" : Fonts.DEFAULT.value,
     "background_color": Color.PRIMARY.value,
-    "padding":Size.MEDIUM.value,
 
     rx.Button: {
     "width" : "100%",
@@ -66,6 +65,7 @@ title_style = dict (
     width = "100%",
     font_family = Fonts.TITLE.value,
     padding_top = Size.DEFAULT.value,
+    padding = Size.SMALL.value,
     color = color_text.TEXT_PRIMARY.value,
 )
 
@@ -74,6 +74,7 @@ subtitle_style = dict (
     font_family = Fonts.TITLE.value,
     font_size = Size.BIG.value,
     padding_top = Size.DEFAULT.value,
+    padding = Size.SMALL.value,
     color = color_text.TEXT_PRIMARY.value,
 )
 
@@ -88,6 +89,7 @@ avatar_title_style = dict (
     width = "100%",
     font_family = Fonts.TITLE.value,
     color = color_text.TEXT_PRIMARY.value,
+    padding = Size.SMALL.value,
 )
 
 

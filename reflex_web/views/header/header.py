@@ -24,9 +24,12 @@ def header() -> rx.Component:
            ),
             align_items="start",
             color = color_text.TEXT_PRIMARY.value,
-       )
+       ),
+
+       padding = styles.Size.SMALL.value,
      
         ),
+        
 
         rx.heading(
             """Bienvenido a mi Mundo Digital""",
@@ -36,7 +39,8 @@ def header() -> rx.Component:
 
         rx.text("""¡Hola, soy Sebastian Henao, un apasionado desarrollador con un enfoque especializado en Python!
                 Este rincón virtual es mi espacio para compartir mi viaje de aprendizaje y exploración en el vasto universo de la programación.""",
-                color =color_text.TEXT_SECUNDARY.value), 
+                color =color_text.TEXT_SECUNDARY.value,
+                padding = styles.Size.SMALL.value,), 
                 
         
         rx.heading(
@@ -47,7 +51,8 @@ def header() -> rx.Component:
         ),
         rx.text("""Soy un eterno aprendiz, siempre hambriento de conocimiento y desafiando los límites de lo posible con Python. 
                  Mi misión es convertirme en uno de los mejores desarrolladores, y cada línea de código es un paso hacia ese objetivo.""",
-                 color =color_text.TEXT_SECUNDARY.value),
+                 color =color_text.TEXT_SECUNDARY.value,
+                 padding = styles.Size.SMALL.value,),
                   
 
         align_items="start"

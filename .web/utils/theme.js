@@ -1,1 +1,1 @@
-export default {"styles": {"global": {":root": {}, "body": {"fontFamily": "Abel", "backgroundColor": "#1a1a1a", "padding": "0.8em"}}}}
+export default {"styles": {"global": {":root": {}, "body": {"fontFamily": "Abel", "backgroundColor": "#1a1a1a"}}}}
