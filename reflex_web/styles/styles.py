@@ -22,15 +22,17 @@ class Size(Enum):
 BASE_STYLE = {
     "font_family" : Fonts.DEFAULT.value,
     "background_color": Color.PRIMARY.value,
+    "padding":Size.MEDIUM.value,
 
     rx.Button: {
     "width" : "100%",
     "height" : "100%",
-    "display" : "block",
     "padding" : Size.SMALL.value,
     "border_radius" : Size.DEFAULT.value,
     "color": color_text.TEXT_PRIMARY.value,
     "background_color": Color.FOUR.value,
+    "white_space" : "normal",
+    "text_align": "start",
     "_hover": {
         "background_color": Color.SECUNDARY.value,
 

@@ -5,7 +5,6 @@ import { Fragment } from "react"
 import { Avatar, Box, Button, Center, Heading, HStack, Image as ChakraImage, Link, Text, VStack } from "@chakra-ui/react"
 import "focus-visible/dist/focus-visible"
 import NextLink from "next/link"
-import { ArrowForwardIcon } from "@chakra-ui/icons"
 import NextHead from "next/head"
 
 
@@ -59,9 +58,9 @@ export default function Component() {
   {`Personal`}
 </Heading>
   <Link as={NextLink} href={`/about`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "_hover": {"backgroundColor": "#3498db"}}}>
-  <HStack>
-  <ArrowForwardIcon sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#3498db"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage src={`icons/project.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`}>
   <Text sx={{"fontFamily": "Inconsolata", "fontSize": "1em", "color": "#ffffff"}}>
   {`Proyectos`}
@@ -74,9 +73,9 @@ export default function Component() {
 </Button>
 </Link>
   <Link as={NextLink} href={`https://github.com/SebastianHena`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "_hover": {"backgroundColor": "#3498db"}}}>
-  <HStack>
-  <ArrowForwardIcon sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#3498db"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage src={`icons/github.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`}>
   <Text sx={{"fontFamily": "Inconsolata", "fontSize": "1em", "color": "#ffffff"}}>
   {`GitHub`}
@@ -92,9 +91,9 @@ export default function Component() {
   {`¡Redes sociales y más!`}
 </Heading>
   <Link as={NextLink} href={`https://web.facebook.com/juansebastian1013`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "_hover": {"backgroundColor": "#3498db"}}}>
-  <HStack>
-  <ArrowForwardIcon sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#3498db"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage src={`icons/facebook.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`}>
   <Text sx={{"fontFamily": "Inconsolata", "fontSize": "1em", "color": "#ffffff"}}>
   {`Facebook`}
@@ -107,9 +106,9 @@ export default function Component() {
 </Button>
 </Link>
   <Link as={NextLink} href={`https://www.instagram.com/sebastianhenao_12/`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "_hover": {"backgroundColor": "#3498db"}}}>
-  <HStack>
-  <ArrowForwardIcon sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#3498db"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage src={`icons/instagram.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`}>
   <Text sx={{"fontFamily": "Inconsolata", "fontSize": "1em", "color": "#ffffff"}}>
   {`Instagram`}
@@ -122,9 +121,9 @@ export default function Component() {
 </Button>
 </Link>
   <Link as={NextLink} href={`https://profile.magneto365.com/profile/resume`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "_hover": {"backgroundColor": "#3498db"}}}>
-  <HStack>
-  <ArrowForwardIcon sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#3498db"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage src={`icons/M.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`}>
   <Text sx={{"fontFamily": "Inconsolata", "fontSize": "1em", "color": "#ffffff"}}>
   {`Magneto`}
@@ -137,9 +136,9 @@ export default function Component() {
 </Button>
 </Link>
   <Link as={NextLink} href={`www.linkedin.com/in/sebastián-henao-vanegas-09885a24b`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "_hover": {"backgroundColor": "#3498db"}}}>
-  <HStack>
-  <ArrowForwardIcon sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#3498db"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage src={`icons/linkedin.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`}>
   <Text sx={{"fontFamily": "Inconsolata", "fontSize": "1em", "color": "#ffffff"}}>
   {`Linkedin`}
@@ -155,9 +154,9 @@ export default function Component() {
   {`Contacto`}
 </Heading>
   <Link as={NextLink} href={`mailto:sebastianhenaovanegas2@gmail.com`} isExternal={true} sx={{"width": "100%", "textDecoration": "none", "_hover": {}}}>
-  <Button sx={{"width": "100%", "height": "100%", "display": "block", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "_hover": {"backgroundColor": "#3498db"}}}>
-  <HStack>
-  <ArrowForwardIcon sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
+  <Button sx={{"width": "100%", "height": "100%", "padding": "0.5em", "borderRadius": "1em", "color": "#ffffff", "backgroundColor": "#171F26", "whiteSpace": "normal", "textAlign": "start", "_hover": {"backgroundColor": "#3498db"}}}>
+  <HStack sx={{"width": "100%"}}>
+  <ChakraImage src={`icons/mail.svg`} sx={{"width": "2em", "height": "2em", "margin": "0.8em"}}/>
   <VStack alignItems={`start`}>
   <Text sx={{"fontFamily": "Inconsolata", "fontSize": "1em", "color": "#ffffff"}}>
   {`Email`}
